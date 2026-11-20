@@ -1,14 +1,6 @@
-# workwork — Flow 保活工具（驱动版）
+# workwork 
 
 ## 下载
-
-👉 **[点击下载 workwork.zip](https://github.com/mathplayer001/download/raw/main/workwork.zip)**
-
-## 这是什么
-
-Flow 会用底层键盘/鼠标钩子检测“是否是真人操作”。普通模拟软件（SendInput）产生的信号会被标记成"注入的"，Flow 直接忽略，所以你照样被踢。
-
-这个工具改装了 **Interception 内核驱动**，从驱动层伪造键盘信号，Flow 会当成真实硬件输入，因此能通过检测。
 
 ## 使用方法
 
